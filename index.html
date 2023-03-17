@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv_estilo.css">
+    <link rel="icon" type="image/x-icon" href="Inicialname.png">
+    <title>Document</title>
+</head>
+<body>
+    <script src="cv_funciones.js"> </script>
+    <Section class="col-12">
+        <div id="informacion" class="col-12">
+            <h1 id="nombre">Mayra Andrea Bernal </h1>
+            <h3 id="profesion">Web designer - junior <br>
+            Diseñador Web</H3>
+            <!--fotosacado de git initi-->
+            <img id="imagenperfil" class="col-12" src="fotoperfil.png" alt="Foto de Rene Williamson">
+            <p id="infopersonal">  
+            04/08/1994<br>
+            Zona sur, Buenos Aires, Argentina<br>
+            
+            <img src="mail.png" alt="iconmail" id="iconmail">: <a href="mailto:rene.williamson@example.com?subject=subjet text">Bernalmayra@gmail.com</a> <br>
+            <img src="cel.jpg" alt="iconcel" id="iconcel">: 11 6637 7949 <br>
+            </p>    
+        </div>
+        <div id="presentacion" class="col-12">
+            <button id="boton-pres" class="col-12" type="button" onclick="bprest()"> Presentación</button>
+            <H4 id="prest" style="display: none;">Soy Mayra Bernal y me considero una pesona que legusta aprender y mejorar lo que hago. <br>
+                Desde que termine la secundaria me di cuenta que el paso por ella me dejo herramientas para comprender los programas de edicion o similares. Asi que empece la licenciatura de artes audiovisuales. 
+                Pero hace unos años comenzo a intrigarme otra vez el mundo de la programacion, asi que volvi a buscar estudios y trabajos que esten relacionados. <br>
+                Por esto comence a trabajar como administradora/gestora en un campus virtual de diferentes institutos. Con ello, espero poder avanzar en mis conocimientos sobre edicion, programacion entre otros.
+                <button type="button" onclick="vermenosP()" class="vermenos">Ver menos</button>    
+            </H4>
+
+        </div>
+        <div id="aptitudes" class="col-12">
+            <button id="boton-apt" class="col-12"  type="button" onclick="bapt()"> Aptitudes</button>
+            <ul id="list-apt" style="display:none;">
+                <li>Tengo buena mano para los buscadores, consiguiendo las primeras posiciones para muchos de mis clientes.</li>
+                <li>Soy conocedora y defensora de los estándares, de la accesibilidad, de la usabilidad, de velar por la experiencia del usuario.</li>
+                <li>He recibido formación para el trabajo en equipo, analitica web, creatividad, comunicación, tipografía, semiótica, color, técnicas de impresión</li>
+                <li>Persona sociable, capaz de escuchar y de disfrutar del contacto profesional con clientes, proveedores y colaboradores.</li>
+                <button type="button" onclick="vermenosA()" class="vermenos">Ver menos</button>
+            </ul>
+        </div>
+        <div id="exlaboral" class="col-12">
+            <button id="boton-exlab" class="col-12" type="button" onclick="bexlab()">Experiencia Laboral</button>
+            <ul id="list-exlab" style="display:none;">
+                <li>2023-actual: Administracion/gestion de una plataforma del campus virtual de seis (6) instituciones.</li>
+                <li>2022-actual: Administrativa en la "Escuela Municipal de circo, percusion y magia" de avellaneda.</li>
+                <li>2016-2018: Digitalizacion de archivos de Anses.</li>
+                <li>2014-Actual: Freelancer (Fotografia, edicion de imagen y videos, creacion de lenceria)</li>
+                <button type="button" onclick="vermenosEl()" class="vermenos">Ver menos</button>
+            </ul>
+        </div>
+        
+        <div id="estudios" class="col-12">
+            <button id="boton-estud" class="col-12" type="button" onclick="bestud()">Estudios</button>
+            <ul id="list-estud" style="display:none;">
+                <li>2018-2024 Profesorado de Nivel Inicial</li>
+                <li>2014-2019 Lic. en artes audiovisuales</li>
+                <li>2017-2014 Tecnica en informatica personal y profesional</li>
+                <button type="button" onclick="vermenosEs()" class="vermenos">Ver menos</button>
+            </ul>
+        </div>
+        <div id="cursos" class="col-12">
+            <button id="boton-cursos" class="col-12" type="button" onclick="bcursos()">Cursos</button>
+            <ul id="list-curs" style="display:none;">
+                <li>2023 Programacion en Argentina progama 4.0 </li>
+                <li>2023 Codo a codo-Inicios a la Programación</li>
+                <li>2017-2019 Lengua de señas</li>
+                <li>2014 Portugues nivel 1 y 2</li>
+                <li>2013 Programacion TVD</li>
+                <li>2013 Instalación de TVD</li>
+                <button type="button" onclick="vermenosC()" class="vermenos">Ver menos</button>
+            </ul>                
+        </div>
+        <div class="col-12">
+            <button class="col-12" onclick="mensajefinal()">Para finalizar</button>
+            <p id="demo">
+            </p>
+        </div>
+        
+    </Section>
+
+<footer class="col-12">
+    <span class="Pie_redes" class="col-3">Redes Sociales</span>
+    <p>
+            <a href="https://www.Linkedin.com" title="Linkedin"><img src="linkedin.png" alt="icono de Linkedin" id="linkedin"/></a>   
+            <a href="https://www.facebook.com/may.bernal.12" title="Facebook"><img src="facebook.png" alt="icono de facebook" id="facebook"/></a>
+            <a href="https://www.instagram.com/may.bernal.12/" title="Instagram"><img src="instagram.png" alt="icono de Instagram" id="instagram"/></a>
+    </p>
+
+    <Span class="Pie_redes">Contacto</Span><br>
+    <p><img src="gmail.png" alt="icono de gmail" id="gmail">: <a href="mailto:bernalmayra94@gmail.com?subject=subjet text">Bernalmayra94@gmail.com</a></p>
+    <p><img src="WhatsApp.png" alt="Icono de WhatsApp" id="whatsapp">: 11 6637 7949</p>
+</footer>
+</body>
+</html>
