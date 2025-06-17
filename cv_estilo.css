@@ -11,7 +11,7 @@
         padding: 0;
     }
     body {
-        background-color: #00F565;
+        background-color: #191919;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 3%;
@@ -29,13 +29,13 @@
     }
 
     h4 {
-        color: rgb(235, 229, 229);
+        color: rgb(35, 33, 33);
         background-color: rgb(255, 247, 247);
         border-style: outset;
     }
 
     button {       
-        background-color:#ecf4e4;
+        background-color:#051E1F;
         border: none;
         border-radius: 5px;
         color: white;
@@ -51,19 +51,19 @@
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     div {        
-        background-color: rgb(186, 185, 185);
-        border-color: rgb(165, 162, 162);
-        color: rgb(37, 36, 36);
+        background-color: rgb(70, 69, 69);
+        border-color: rgb(70, 69, 69);
+        color: rgb(255, 255, 255);
         padding: 5px;
 
     }
     footer {
-        background-color: rgb(153, 151, 151);
+        background-color: rgb(55, 55, 55);
         border-style: outset;
-        border-color: rgb(140, 139, 139);
+        border-color: rgb(55, 55, 55);
         text-align: center;
         margin: 4px;
-        color: rgb(32, 31, 31);
+        color: white;
     }
 
 /** ID= */
@@ -77,8 +77,8 @@
         }
         #profesion {
             text-align: center;
-            background-color: rgb(143, 140, 140);
-            border-color: rgb(167, 165, 165);
+            background-color: rgb(52, 52, 52);
+            border-color: rgb(52, 52, 52);
             border-style: outset;
             border-radius: 10px;
         }
@@ -144,10 +144,10 @@
     }
 
     .Pie_redes {
-            background-color: #7c7f86; /* Green */
+            background-color: #242527; /* Green */
             border: none;
             border-radius: 10px;
-            color: rgb(24, 24, 24);
+            color: white;
             padding: 10px 120px;
             text-align: center;
             text-decoration: none;
@@ -157,7 +157,7 @@
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     .vermenos {
-            background-color: #bec0c0;
+            background-color: #484949;
             padding: 5px 15px;
     }
 
