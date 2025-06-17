@@ -29,13 +29,13 @@
     }
 
     h4 {
-        color: rgb(35, 33, 33);
+        color: rgb(235, 229, 229);
         background-color: rgb(255, 247, 247);
         border-style: outset;
     }
 
     button {       
-        background-color:#051E1F;
+        background-color:#ecf4e4;
         border: none;
         border-radius: 5px;
         color: white;
@@ -51,19 +51,19 @@
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     div {        
-        background-color: rgb(70, 69, 69);
-        border-color: rgb(70, 69, 69);
-        color: rgb(255, 255, 255);
+        background-color: rgb(186, 185, 185);
+        border-color: rgb(165, 162, 162);
+        color: rgb(37, 36, 36);
         padding: 5px;
 
     }
     footer {
-        background-color: rgb(55, 55, 55);
+        background-color: rgb(153, 151, 151);
         border-style: outset;
-        border-color: rgb(55, 55, 55);
+        border-color: rgb(140, 139, 139);
         text-align: center;
         margin: 4px;
-        color: white;
+        color: rgb(32, 31, 31);
     }
 
 /** ID= */
@@ -77,8 +77,8 @@
         }
         #profesion {
             text-align: center;
-            background-color: rgb(52, 52, 52);
-            border-color: rgb(52, 52, 52);
+            background-color: rgb(143, 140, 140);
+            border-color: rgb(167, 165, 165);
             border-style: outset;
             border-radius: 10px;
         }
@@ -144,10 +144,10 @@
     }
 
     .Pie_redes {
-            background-color: #242527; /* Green */
+            background-color: #7c7f86; /* Green */
             border: none;
             border-radius: 10px;
-            color: white;
+            color: rgb(24, 24, 24);
             padding: 10px 120px;
             text-align: center;
             text-decoration: none;
@@ -157,7 +157,7 @@
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     .vermenos {
-            background-color: #484949;
+            background-color: #bec0c0;
             padding: 5px 15px;
     }
 
